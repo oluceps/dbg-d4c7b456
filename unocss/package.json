@@ -1,0 +1,23 @@
+{
+  "name": "example-with-unocss",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  },
+  "dependencies": {
+    "@corvu/disclosure": "^0.2.2",
+    "@corvu/unocss": "^0.1.2",
+    "@solidjs/router": "^0.15.0",
+    "@solidjs/start": "^1.1.0",
+    "@unocss/reset": "^66.0.0",
+    "corvu": "^0.7.2",
+    "solid-js": "^1.9.5",
+    "unocss": "^66.0.0",
+    "vinxi": "^0.5.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
