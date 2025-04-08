@@ -1,5 +1,4 @@
 import "virtual:uno.css";
-import "./app.css"
 
 import { Router } from "@solidjs/router";
 import { FileRoutes } from "@solidjs/start/router";
@@ -12,6 +11,7 @@ export default function App() {
         <>
           <div class="w-full h-screen">
             <DisclosureExample />
+            <div class="w-4 h-4 bg-black animate-custom"> </div>
           </div>
         </>
       )}
